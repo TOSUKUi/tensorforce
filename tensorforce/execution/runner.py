@@ -146,7 +146,7 @@ class Runner(BaseRunner):
                         (num_timesteps is not None and self.global_timestep >= num_timesteps) or \
                         self.agent.should_stop():
                     break
-            pbar.update(num_episodes - self.global_episode)
+            # pbar.update(num_episodes - self.global_episode)
 
     # keep backwards compatibility
     @property
